@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Jainam P Doshi - Welcome to my portfolio",
-  description: "portfolio website of Jainam P Doshi made with Next.js",
+  description: "jpdoshi portfolio website made with Next.js by Jainam P Doshi",
 };
 
 export default function RootLayout({ children }) {
