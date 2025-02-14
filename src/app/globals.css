@@ -8,6 +8,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "RobotoSerif";
+  src: url("/fonts/RobotoSerif.ttf");
+  font-display: swap;
+}
+
 :root {
   --light-color: #f4f4f5;
   --dark-color: #09090b;
@@ -41,6 +47,10 @@ section {
 
 .poppins {
   font-family: "Poppins";
+}
+
+.roboto-serif {
+  font-family: "RobotoSerif";
 }
 
 .transparent-layer {
