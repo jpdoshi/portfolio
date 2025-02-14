@@ -27,11 +27,20 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--dark-color);
+  border-radius: 6px;
+}
+
 nav {
   height: 80px;
-  line-height: 80px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 section {

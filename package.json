@@ -12,8 +12,7 @@
     "framer-motion": "^12.4.2",
     "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-intersection-observer": "^9.15.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "postcss": "^8",

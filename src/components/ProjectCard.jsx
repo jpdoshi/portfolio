@@ -7,7 +7,15 @@ const ProjectCard = ({ imgSrc, href, title, description, techIcons }) => {
   return (
     <Link href={href} target="_blank">
       <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileInView={{
+          opacity: 1,
+          scale: 1,
+          viewTarget: 1,
+        }}
+        viewport={{ once: true }}
         whileHover={{ scale: 0.95 }}
+        exit={{ scale: 1 }}
         transition={{ type: "spring", damping: 16, mass: 0.8, stiffness: 300 }}
         className="bg-[#fff] rounded-[12px] h-full"
       >

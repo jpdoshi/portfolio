@@ -1,0 +1,77 @@
+"use client";
+
+import { motion } from "framer-motion";
+
+import Button from "../Button";
+
+const About = () => {
+  return (
+    <section className="content text-center">
+      <motion.div
+        initial={{ opacity: 0, y: 150 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+      >
+        <h2 className="poppins font-bold text-[30px] md:text-[36px] mb-[4px]">
+          About Me
+        </h2>
+        <p className="text-[18px]">
+          Hey, I am a Tech Geek from India. Know more about me
+        </p>
+        <div className="h-[36px]" />
+        <motion.div
+          initial={{ opacity: 0, x: 500 }}
+          whileInView={{ opacity: 1, x: 0, viewTarget: 1 }}
+          viewport={{ once: true }}
+          className="p-[18px] md:p-[24px] xl:p-[32px] text-start bg-[#fff] relative rounded-[24px]"
+        >
+          <p className="text-[18px] md:text-[20px] roboto-serif">
+            Hey there! I am Jainam Doshi, a Tech Geek from India. I love to
+            design cool apps and digital experiences with latest tools and
+            technologies.
+            <br />
+            <br />
+            I am Software developer/designer who loves to make innovative
+            projects. I believe in self learning and have fond of designing web
+            solutions as well as products. You can visit Github to know more
+            about my personal projects and follow if you find my work helpful.
+            <br />
+            <br />
+            I'm always ready to discuss about new projects and craft new ideas
+            with my huge skill set (more about that in the next section). You
+            can contact me via whatsapp or E-mail me for collaboration or to
+            know more about my work and skills. Feel free to contact me anytime,
+            I'd appreciate it.
+          </p>
+          <img
+            className="h-[72px] xl:h-[120px] absolute opacity-5 top-0 left-0"
+            src="/images/quotes.png"
+            loading="lazy"
+          />
+          <img
+            className="h-[72px] xl:h-[120px] absolute opacity-5 bottom-0 right-0 rotate-180"
+            src="/images/quotes.png"
+            loading="lazy"
+          />
+        </motion.div>
+        <div className="h-[32px]" />
+        <div className="flex">
+          <div className="flex mx-auto flex-col md:flex-row gap-[8px] md:gap-[16px]">
+            <Button
+              href={"mailto:jpdoshi2811@gmail.com"}
+              text={"Let's Connect"}
+              sameTab={true}
+            />
+            <Button
+              href={"https://wa.me/919313041034/?text=Hi,%20Jainam"}
+              text={"WhatsApp Me"}
+              secondary={true}
+            />
+          </div>
+        </div>
+      </motion.div>
+    </section>
+  );
+};
+
+export default About;
