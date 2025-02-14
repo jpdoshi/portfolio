@@ -170,6 +170,22 @@ const Home = () => {
             loading="lazy"
           />
         </div>
+
+        <div className="h-[32px]" />
+        <div className="flex">
+          <div className="flex mx-auto flex-col md:flex-row gap-[8px] md:gap-[16px]">
+            <Button
+              href={"mailto:jpdoshi2811@gmail.com"}
+              text={"Let's Connect"}
+              sameTab={true}
+            />
+            <Button
+              href={"https://wa.me/919313041034/?text=Hi,%20Jainam"}
+              text={"WhatsApp Me"}
+              secondary={true}
+            />
+          </div>
+        </div>
       </section>
     </>
   );
