@@ -11,13 +11,13 @@ const Navbar = () => {
       className="content nav"
     >
       <Link href={"/"} className="poppins font-bold text-[20px]">
-        jpdoshi
+        <motion.h1 whileHover={{ scale: 1.1 }}>jpdoshi</motion.h1>
       </Link>
       <ul className="flex gap-[32px] xl:gap-[48px] ml-[32px] xl:ml-0 whitespace-nowrap font-[500] overflow-x-auto">
         <motion.li
           transition={{ type: "tween", duration: 0.2 }}
           whileHover={{ y: -2 }}
-          className="opacity-65 hover:opacity-100"
+          className="opacity-80 hover:opacity-100 cursor-pointer"
         >
           <Link href="mailto:jpdoshi2811@gmail.com" target="_blank">
             E-mail
@@ -26,7 +26,7 @@ const Navbar = () => {
         <motion.li
           transition={{ type: "tween", duration: 0.2 }}
           whileHover={{ y: -2 }}
-          className="opacity-65 hover:opacity-100"
+          className="opacity-80 hover:opacity-100 cursor-pointer"
         >
           <Link
             href="https://www.linkedin.com/in/jainam-doshi-24063a2a0"
@@ -38,7 +38,7 @@ const Navbar = () => {
         <motion.li
           transition={{ type: "tween", duration: 0.2 }}
           whileHover={{ y: -2 }}
-          className="opacity-65 hover:opacity-100"
+          className="opacity-80 hover:opacity-100 cursor-pointer"
         >
           <Link href="https://instagram.com/_jpdoshi" target="_blank">
             Instagram
@@ -47,7 +47,7 @@ const Navbar = () => {
         <motion.li
           transition={{ type: "tween", duration: 0.2 }}
           whileHover={{ y: -2 }}
-          className="opacity-65 hover:opacity-100"
+          className="opacity-80 hover:opacity-100 cursor-pointer"
         >
           <Link href="https://github.com/jpdoshi" target="_blank">
             Github

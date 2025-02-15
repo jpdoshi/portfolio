@@ -10,7 +10,7 @@ const Skills = () => {
     <section className="content text-center">
       <motion.div
         initial={{ opacity: 0, y: 150 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0, viewTarget: 0.5 }}
         viewport={{ once: true }}
       >
         <h2 className="poppins font-bold text-[30px] md:text-[36px] mb-[4px]">

@@ -11,7 +11,7 @@ const ProjectCard = ({ imgSrc, href, title, description, techIcons }) => {
         whileInView={{
           opacity: 1,
           scale: 1,
-          viewTarget: 1,
+          viewTarget: 0.5,
         }}
         viewport={{ once: true }}
         whileHover={{ scale: 0.95 }}
