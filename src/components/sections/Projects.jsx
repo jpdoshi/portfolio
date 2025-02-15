@@ -23,37 +23,37 @@ const Projects = () => {
         <div className="h-[36px]" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[10px] relative">
           <ProjectCard
-            imgSrc={"/images/project-1.png"}
+            imgSrc={"/images/projects/project-1.png"}
             href="https://github.com/jpdoshi/godot-2d-rpg"
             title="2D RPG with Godot Engine"
             description="RPG Game made with Godot Engine with Collision Detection, Animator, Health, Enemy AI, Tilemaps, etc."
           />
           <ProjectCard
-            imgSrc={"/images/project-2.png"}
+            imgSrc={"/images/projects/project-2.png"}
             href="https://aura-walls.vercel.app"
             title="Aura Walls Wallpaper Website"
             description="Wallpapers App Made with NextJS and Vanilla CSS. Hosted on Vercel. Source code available on Github."
           />
           <ProjectCard
-            imgSrc={"/images/project-3.png"}
+            imgSrc={"/images/projects/project-3.png"}
             href="https://jpdoshi-switch-landing.framer.website"
             title="Nintendo Switch Landing Page"
             description="Responsive Animated Landing Page designed in Figma and Hosted with Framer."
           />
           <ProjectCard
-            imgSrc={"/images/project-4.png"}
+            imgSrc={"/images/projects/project-4.png"}
             href="https://github.com/jpdoshi/BookStore"
             title="Django Books Ecommerce Website"
             description="Online book store project made with Python Django and design in Bootstrap."
           />
           <ProjectCard
-            imgSrc={"/images/project-5.png"}
+            imgSrc={"/images/projects/project-5.png"}
             href="https://github.com/jpdoshi/asset-management-client"
             title="Fullstack Asset Management App"
             description="Modern Asset Management System with React+Vite on client and NodeJS and MongoDB on server."
           />
           <ProjectCard
-            imgSrc={"/images/project-6.png"}
+            imgSrc={"/images/projects/project-6.png"}
             href="https://github.com/jpdoshi/react-chatbot"
             title="AI Chatbot with React Gemini API"
             description="Super-fast AI chatbot made with React+Vite and Gemini API. Responsive design with Dark mode in CSS."
