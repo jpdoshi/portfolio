@@ -17,10 +17,10 @@ const Hero = () => {
       >
         <Image
           src={"/images/pfp.png"}
-          loading="lazy"
           alt="profile picture"
           height={120}
           width={120}
+          priority={true}
           className="mx-auto block mb-[12px]"
         />
         <p className="text-[18px]">Hi, I'm Jainam Doshi 👋</p>

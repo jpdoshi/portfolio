@@ -28,12 +28,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 6px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: var(--dark-color);
-  border-radius: 6px;
+  width: 0px;
 }
 
 nav {
