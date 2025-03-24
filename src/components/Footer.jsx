@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white flex-col md:flex-row">
+    <footer className="bg-black text-white flex-col md:flex-row md:items-center">
       <div className="mx-auto py-[16px] text-center">
         <motion.h2
           initial={{ scale: 0, opacity: 0 }}
@@ -22,10 +22,12 @@ const Footer = () => {
               <motion.svg
                 initial={{ rotate: -180, opacity: 0 }}
                 whileInView={{ rotate: 0, opacity: 1, viewTarget: 0.5 }}
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
                 viewport={{ once: true }}
                 fill="#fff"
-                width="40px"
-                height="40px"
+                width="36px"
+                height="36px"
                 viewBox="0 0 32 32"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +42,6 @@ const Footer = () => {
                 />
 
                 <g id="SVGRepo_iconCarrier">
-                  {" "}
-                  <title>gmail</title>{" "}
                   <path d="M30.996 7.824v17.381c0 0 0 0 0 0.001 0 1.129-0.915 2.044-2.044 2.044-0 0-0 0-0.001 0h-4.772v-11.587l-8.179 6.136-8.179-6.136v11.588h-4.772c0 0 0 0-0 0-1.129 0-2.044-0.915-2.044-2.044 0-0 0-0.001 0-0.001v0-17.381c0-0 0-0.001 0-0.001 0-1.694 1.373-3.067 3.067-3.067 0.694 0 1.334 0.231 1.848 0.619l-0.008-0.006 10.088 7.567 10.088-7.567c0.506-0.383 1.146-0.613 1.84-0.613 1.694 0 3.067 1.373 3.067 3.067v0z" />{" "}
                 </g>
               </motion.svg>
@@ -53,10 +53,12 @@ const Footer = () => {
               <motion.svg
                 initial={{ rotate: -180, opacity: 0 }}
                 whileInView={{ rotate: 0, opacity: 1, viewTarget: 0.5 }}
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
                 viewport={{ once: true }}
                 viewBox="0 0 128 128"
-                height={40}
-                width={40}
+                height={34}
+                width={34}
               >
                 <path
                   fill="#fff"
@@ -68,9 +70,11 @@ const Footer = () => {
               <motion.svg
                 initial={{ rotate: -180, opacity: 0 }}
                 whileInView={{ rotate: 0, opacity: 1, viewTarget: 0.5 }}
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
                 viewport={{ once: true }}
-                width="40px"
-                height="40px"
+                width="36px"
+                height="36px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,10 +112,12 @@ const Footer = () => {
               <motion.svg
                 initial={{ rotate: -180, opacity: 0 }}
                 whileInView={{ rotate: 0, opacity: 1, viewTarget: 0.5 }}
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.9 }}
                 viewport={{ once: true }}
                 viewBox="0 0 128 128"
-                height={40}
-                width={40}
+                height={36}
+                width={36}
               >
                 <g fill="#fff">
                   <path

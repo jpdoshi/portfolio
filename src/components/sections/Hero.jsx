@@ -20,8 +20,7 @@ const Hero = () => {
           alt="profile picture"
           height={120}
           width={120}
-          priority={true}
-          className="mx-auto block mb-[12px]"
+          className="mx-auto block mb-[12px] shadow-lg rounded-full"
         />
         <p className="text-[18px]">Hi, I'm Jainam Doshi 👋</p>
         <div className="h-[16px]" />
@@ -29,7 +28,7 @@ const Hero = () => {
           className="text-[34px] md:text-[42px] xl:text-[48px] font-bold poppins"
           style={{ lineHeight: "125%" }}
         >
-          Creating Amazing Digital Experiences, Products & Solutions
+          Creating Amazing Mobile Apps, Digital Experiences & Solutions
         </h1>
         <div className="h-[32px]" />
         <div className="flex">
@@ -40,7 +39,9 @@ const Hero = () => {
               sameTab={true}
             />
             <Button
-              href={"https://github.com/jpdoshi"}
+              href={
+                "https://github.com/jpdoshi/my-resume/blob/main/Jainam%20Doshi.pdf?raw=true"
+              }
               text={"Get Resume"}
               secondary={true}
             />

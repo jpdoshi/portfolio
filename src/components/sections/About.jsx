@@ -23,7 +23,7 @@ const About = () => {
           initial={{ opacity: 0, x: 500 }}
           whileInView={{ opacity: 1, x: 0, viewTarget: 0.5 }}
           viewport={{ once: true }}
-          className="p-[18px] md:p-[24px] xl:p-[32px] text-start bg-[#fff] relative rounded-[24px]"
+          className="p-[18px] md:p-[24px] xl:p-[32px] text-start bg-[var(--light-color)] relative rounded-[24px]"
         >
           <p className="text-[18px] md:text-[20px] roboto-serif">
             Hey there! I am Jainam Doshi, a Tech Geek from India. I love to
@@ -31,17 +31,17 @@ const About = () => {
             technologies.
             <br />
             <br />
-            I am Software developer/designer who loves to make innovative
-            projects. I believe in self learning and have fond of designing web
-            solutions as well as products. You can visit Github to know more
-            about my personal projects and follow if you find my work helpful.
+            I am Software Engineer who loves to make innovative apps and
+            projects. I believe in self learning and have fond of building
+            mobile apps as well as web solutions with React Eco-System. You can
+            visit Github to know more about my personal projects and follow if
+            you find my work helpful.
             <br />
             <br />
-            I'm always ready to discuss about new projects and craft new ideas
-            with my huge skill set (more about that in the next section). You
-            can contact me via whatsapp or E-mail me for collaboration or to
-            know more about my work and skills. Feel free to contact me anytime,
-            I'd appreciate it.
+            I'm always happy to discuss about new projects and craft new ideas
+            with my skill set. You can contact me via whatsapp or E-mail me for
+            collaboration or to know more about my work and skills. Feel free to
+            contact me anytime, I'd appreciate it.
           </p>
           <img
             className="h-[72px] xl:h-[120px] absolute opacity-5 top-0 left-0"

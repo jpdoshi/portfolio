@@ -17,6 +17,8 @@ const Button = ({ href, text, icon, secondary, sameTab }) => {
           lineHeight: "60px",
           display: "flex",
           backgroundColor: secondary ? "#fff" : "var(--dark-color)",
+          border: "1px solid #e0e0e0",
+          boxShadow: "0px 4px 8px rgba(0,0,0,0.1)",
           color: secondary ? "black" : "white",
           borderRadius: "32px",
           paddingInline: "30px",

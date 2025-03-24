@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-const ProjectCard = ({ imgSrc, href, title, description, techIcons }) => {
+const ProjectCard = ({ imgSrc, href, title, description }) => {
   return (
     <Link href={href} target="_blank">
       <motion.div
@@ -17,15 +17,13 @@ const ProjectCard = ({ imgSrc, href, title, description, techIcons }) => {
         whileHover={{ scale: 0.95 }}
         exit={{ scale: 1 }}
         transition={{ type: "spring", damping: 16, mass: 0.8, stiffness: 300 }}
-        className="bg-[#fff] rounded-[12px] h-full"
+        className="shadow-lg shadow-stone-200 border border-[var(--light-color)] rounded-[12px] h-full"
       >
         <img
           src={imgSrc}
           alt="Could not load image"
-          loading="lazy"
-          height={"auto"}
           width={"100%"}
-          className="rounded-t-[12px]"
+          className="rounded-t-[12px] border-b border-[var(--light-color)] aspect-video"
         />
         <div className="p-[16px] text-start">
           <h3 className="text-[18px] md:text-[21px] xl:text-[24px] font-bold poppins md:mb-1">

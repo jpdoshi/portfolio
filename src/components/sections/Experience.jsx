@@ -36,33 +36,15 @@ const Experience = () => {
               />
               <div className="h-[16px]" />
               <h2 className="text-[20px] md:text-[24px] font-bold poppins mb-1">
-                Frontend Developer (Aug 2024 - Jan 2025)
+                Frontend Engineer (Aug 2024 - Jan 2025)
               </h2>
               <p className="text-[17px]">
                 ReactJS, NextJS, Strapi CMS, Wordpress, Tailwind, Bootstrap
               </p>
             </motion.div>
-            <motion.div
-              initial={{ x: 150, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1, viewTarget: 0.5 }}
-              viewport={{ once: true }}
-              className="py-[16px] md:py-[20px]"
-            >
-              <Image
-                src={"/images/companies/phoenix.jpg"}
-                height={80}
-                width={200}
-                alt="Phoenix Code Labs"
-              />
-              <div className="h-[16px]" />
-              <h2 className="text-[20px] md:text-[24px] font-bold poppins mb-1">
-                Internship - July 2023
-              </h2>
-              <p className="text-[17px]">Python, Django, SQLite, Bootstrap</p>
-            </motion.div>
           </div>
         </div>
-        <div className="h-[32px]" />
+        <div className="h-[36px]" />
         <div className="flex">
           <div className="flex mx-auto flex-col md:flex-row gap-[8px] md:gap-[16px]">
             <Button
@@ -87,7 +69,9 @@ const Experience = () => {
               }
             />
             <Button
-              href={"https://github.com/jpdoshi"}
+              href={
+                "https://github.com/jpdoshi/my-resume/blob/main/Jainam%20Doshi.pdf?raw=true"
+              }
               text={"Get My Resume"}
               secondary={true}
               icon={

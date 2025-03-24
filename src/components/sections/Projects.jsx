@@ -58,7 +58,7 @@ const Projects = () => {
             title="AI Chatbot with React Gemini API"
             description="Super-fast AI chatbot made with React+Vite and Gemini API. Responsive design with Dark mode in CSS."
           />
-          <div className="absolute bottom-0 left-0 h-[10%] md:h-[20%] xl:h-[25%] w-full pointer-events-none transparent-layer" />
+          <div className="absolute -bottom-4 left-0 h-[10%] md:h-[20%] xl:h-[25%] w-full pointer-events-none transparent-layer" />
         </div>
         <div className="flex mt-[24px]">
           <div className="mx-auto">
