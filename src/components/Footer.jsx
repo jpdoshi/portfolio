@@ -5,17 +5,17 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white flex-col md:flex-row md:items-center">
-      <div className="mx-auto py-[16px] text-center">
+    <footer className="bg-[var(--light-color)] flex-col md:flex-row md:items-center">
+      <div className="mx-auto py-[16px] mt-8 text-center">
         <motion.h2
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1, viewTarget: 0.5 }}
           viewport={{ once: true }}
-          className="font-semibold text-[20px] poppins"
+          className="font-semibold text-[21px] poppins"
         >
           Made by jpdoshi © 2025
         </motion.h2>
-        <div className="h-[16px]" />
+        <div className="h-[10px]" />
         <div className="flex">
           <div className="flex gap-[20px] mx-auto">
             <Link href="mailto:jpdoshi2811@gmail.com" target="_blank">
@@ -25,13 +25,13 @@ const Footer = () => {
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
                 viewport={{ once: true }}
-                fill="#fff"
+                fill="#000"
                 width="36px"
                 height="36px"
                 viewBox="0 0 32 32"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                stroke="#fff"
+                stroke="#000"
               >
                 <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
@@ -61,7 +61,7 @@ const Footer = () => {
                 width={34}
               >
                 <path
-                  fill="#fff"
+                  fill="#000"
                   d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"
                 ></path>
               </motion.svg>
@@ -93,17 +93,17 @@ const Footer = () => {
                     fillRule="evenodd"
                     clipRule="evenodd"
                     d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
-                    fill="#fff"
+                    fill="#000"
                   />{" "}
                   <path
                     d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
-                    fill="#fff"
+                    fill="#000"
                   />{" "}
                   <path
                     fillRule="evenodd"
                     clipRule="evenodd"
                     d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
-                    fill="#fff"
+                    fill="#000"
                   />{" "}
                 </g>
               </motion.svg>
@@ -119,7 +119,7 @@ const Footer = () => {
                 height={36}
                 width={36}
               >
-                <g fill="#fff">
+                <g fill="#000">
                   <path
                     fillRule="evenodd"
                     clipRule="evenodd"

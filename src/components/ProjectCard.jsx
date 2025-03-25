@@ -17,7 +17,7 @@ const ProjectCard = ({ imgSrc, href, title, description }) => {
         whileHover={{ scale: 0.95 }}
         exit={{ scale: 1 }}
         transition={{ type: "spring", damping: 16, mass: 0.8, stiffness: 300 }}
-        className="shadow-lg shadow-stone-200 border border-[var(--light-color)] rounded-[12px] h-full"
+        className="shadow-lg shadow-stone-200 border border-[#eee] rounded-[12px] h-full"
       >
         <img
           src={imgSrc}
