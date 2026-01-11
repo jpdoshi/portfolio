@@ -2,14 +2,14 @@ const index = () => {
   return (
     <section className="p-6 absolute top-[20vh] h-[80vh] xl:top-[20vh] xl:h-[80vh] left-0 w-full overflow-hidden">
       <div className="grid grid-cols-1 gap-3 md:gap-[32px] xl:grid-cols-2">
-        <div>
+        <div data-aos="fade-right">
           <h1 className="text-[30px] md:text-[40px] xl:text-[50px] font-semibold leading-[1.4]">
             Front-End Engineer{" "}
             <span className="font-extralight text-red-400">|</span> React Web &
             Native Dev
           </h1>
         </div>
-        <div className="xl:pt-3">
+        <div className="xl:pt-3" data-aos="fade-left" data-aos-delay="500">
           <p className="text-neutral-700 md:text-lg font-medium leading-[1.6] tracking-normal">
             I'm a Frontend Engineer with a strong focus on the React ecosystem.
             I build scalable web and mobile apps using React/Next and React
@@ -21,7 +21,11 @@ const index = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-0 xl:translate-y-[10vh] text-center">
+      <div
+        className="absolute bottom-0 xl:translate-y-[10vh] text-center"
+        data-aos={window.innerWidth > 768 ? "fade-up" : ""}
+        data-aos-delay="750"
+      >
         <p className="text-[17dvw] md:text-[18dvw] xl:text-[19dvw] xl:font-light">
           TheJDDev.
         </p>
