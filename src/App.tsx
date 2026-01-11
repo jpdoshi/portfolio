@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, useLocation } from "react-router";
+import { BrowserRouter, Route, Routes } from "react-router";
 import index from "./pages";
 import about from "./pages/about";
 import work from "./pages/work";
