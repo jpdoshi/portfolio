@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins.ttf");
+  font-display: swap;
+}
+
+@theme {
+  --font-poppins: "Poppins";
+  --transition-duration-smooth: 400ms;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: theme(--color-red-50);
+}
+
+body {
+  font-family: theme("--font-poppins");
+}
