@@ -21,8 +21,7 @@ body {
 }
 
 body::selection {
-  background-color: theme(--color-red-500);
-  color: white;
+  background-color: theme(--color-red-100);
 }
 
 img {

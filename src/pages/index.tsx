@@ -1,23 +1,13 @@
 import { motion } from "framer-motion";
 import RollingText from "../components/RollingText";
+import PageReveal from "../components/PageReveal";
 
 const index = () => {
   return (
     <>
-      <motion.div
-        initial={{ top: 0 }}
-        animate={{ top: "-100vh" }}
-        transition={{ delay: 0.5 }}
-        className="absolute top-0 left-0 h-screen w-screen bg-neutral-900 z-20"
-      />
-      <motion.div
-        initial={{ top: 0 }}
-        animate={{ top: "-100vh" }}
-        transition={{ delay: 0.8 }}
-        className="absolute top-0 left-0 h-screen w-screen bg-red-500 z-10"
-      />
+      <PageReveal />
       <section className="p-6 absolute top-[20vh] h-[80vh] xl:top-[20vh] xl:h-[80vh] left-0 w-full overflow-hidden">
-        <div className="grid grid-cols-1 gap-3 md:gap-[8px] xl:grid-cols-2">
+        <div className="grid grid-cols-1 gap-3 md:gap-[32px] xl:gap-[8px] xl:grid-cols-2">
           <div>
             <motion.h1
               initial={{ opacity: 0, x: -100 }}
@@ -49,9 +39,9 @@ const index = () => {
             initial={{ scaleY: 0 }}
             animate={{ scaleY: 1 }}
             transition={{ delay: 1.0 }}
-            className="text-[17dvw] md:text-[18dvw] xl:text-[19dvw] xl:font-light origin-bottom"
+            className="text-[17dvw] md:text-[18dvw] xl:text-[19dvw] xl:font-light origin-bottom select-none"
           >
-            TheJDDev<span className="text-red-600">.</span>
+            TheJDDev<span className="text-red-500">.</span>
           </motion.p>
         </div>
       </section>
